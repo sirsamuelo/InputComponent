@@ -8,7 +8,7 @@ import { Sizes } from './components/Sizes';
 import { WidthChanger } from './components/WidthChanger';
 
 function App() {
-  const [value, setValue] = React.useState('');
+  const [_, setValue] = React.useState('');
   const [variant, setVariant] = React.useState<VariantType>(VariantType.NONE);
   const [size, setSize] = React.useState<SizeType>(SizeType.MEDIUM);
   const [width, setWidth] = React.useState<WidthType>(WidthType.FLUID);
