@@ -7,7 +7,7 @@ import {
     textFieldInputRecipe,
     textFieldIconStart,
     optionalClasses,
-} from './styles/recipes.css';
+} from '../styles/recipes.css';
 import { TextFieldProps } from '../types';
 import { VariantType } from '../enums';
 import { mapSizeToLabelSize } from '../utils';

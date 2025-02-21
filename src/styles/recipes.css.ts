@@ -1,7 +1,7 @@
 import { recipe } from '@vanilla-extract/recipes';
 import { style } from '@vanilla-extract/css';
 import { colors, fontSizes, labelTokens, radius, spacing } from './tokens.css';
-import { VariantType } from '../../enums';
+import { VariantType } from '../enums';
 
 export const textFieldOuterWrapper = style({
     display: 'flex',
